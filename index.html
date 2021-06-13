@@ -1,25 +1,147 @@
-
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> Sri Amogha WD101 </title>
-    </head>
-    <body style="background-color: burlywood;">
-        <div class="header">
-            <img src="logo.jpg" height="50px" width="50px">
-            
-            <div class="menu">
-                <a href="index.html"> Home </a> |
-                <a href="about.html"> About </a> |
-                <a href="contact.html"> Contact </a> |
-            </div>
-        </div>
-        <div class="main-content">
-            <p> THis is main content. It says something about the website. </p>
-        </div>
-        <div class="footer">
 
+<head>
+  <title>Sai Advaith x Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Portfolio" />
+  <meta name="keywords" content="Portfolio,HTML,CSS,CV" />
+  <meta name="author" content="Sai Advaith" />
+  <link type="text/css" rel="stylesheet" href="styles/styles.css" />
+  <link rel="icon" href="styles/favicon.png" />
+</head>
+
+<body>
+  <nav>
+    <div class="dropdown">
+      <img class="menu-icon" src="photos/icons/nav-icon.png" alt="menu" />
+      <div class="dropdown-content">
+        <a class="underline menu-option" href="#header-text">Home</a>
+        <a class="underline menu-option" href="#about-content">About</a>
+        <a class="underline menu-option" href="#education-content">Education</a>
+        <a class="underline menu-option" href="#skills-content">Skills</a>
+        <a class="underline menu-option" href="#contact-content">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="header-text">
+      <h1>Sai Advaith</h1>
+      <h2>Portfolio</h2>
+    </div>
+    <div class="scroll-icon">
+      <a href="#about-content"><img class="beat" alt="scroll" src="photos/icons/scroll-icon.png" /></a>
+    </div>
+  </header>
+  <section id="about">
+    <div id="about-content">
+      <h2>About Me</h2>
+      <div id="about-img">
+        <img alt="shania-photo" class="img-circle" src="photos/aboutme.jpg" />
+      </div>
+      <div id="about-info">
+        <p>
+          Hello, my name is <span class="about-highlight">Advaith</span> and I
+          am a <span class="about-highlight">Student</span>. I am Studying <span class="about-highlight">CEC</span>
+          from Sri Amogha College.
+        </p>
+        <div class="place dropdown">
+          <img class=" beat location-icon" alt="" src="photos/icons/pin.png" />
+          <div class="dropdown-content-location">
+            <ul>
+              <li>Hyderabad</li>
+              <li>Telangana</li>
+            </ul>
+          </div>
         </div>
-    </body>
+      </div>
+    </div>
+  </section>
+  <section id="education">
+    <div id="education-content">
+      <h2>Education</h2>
+      <div class="educ-text">
+        <section id="elem">
+          <h3 class="educ-level">Elementary</h3>
+          <ul class="educ-details">
+            <li>St Alphonsas High School</li>
+            <li>Hyderabad, TG</li>
+            <li class="date">2007-2012</li>
+          </ul>
+        </section>
+        <section id="hs">
+          <h3 class="educ-level">High school</h3>
+          <ul class="educ-details">
+            <li>Radcliffe</li>
+            <li>CBSE</li>
+            <li>Hyderabad, TG</li>
+            <li class="date">2012-2017</li>
+          </ul>
+        </section>
+        <section id="college">
+          <h3 class="educ-level">College</h3>
+          <ul class="educ-details">
+            <li>Sri Amogha Jr College</li>
+            <li>CEC</li>
+            <li>Hyderabad, TG</li>
+            <li class="date">2019-2021</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div id="skills-content">
+      <h2>Hobbies</h2>
+      <div class="grid">
+        <section id="code">
+          <h3>Online</h3>
+          <div class="dropdown">
+            <img alt="" class="icon" src="photos/icons/laptop.png" />
+            <ul class="dropdown-content-skill">
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </section>
+        <section id="edit">
+          <h3>Media</h3>
+          <div class="dropdown">
+            <img alt="" class="icon" src="photos/icons/film.png" />
+            <ul class="dropdown-content-skill">
+              <li>Listening to Music</li>
+              <li>Watching movies</li>
+              <li>Watching TV series</li>
+            </ul>
+          </div>
+        </section>
+        <section id="personal">
+          <h3>Extra Curricular</h3>
+          <div class="dropdown">
+            <img alt="" class="icon" src="photos/icons/pin.png" />
+            <ul class="dropdown-content-skill">
+              <li>Playing cricket</li>
+              <li>Running</li>
+              <li>Excercising</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div id="contact-content">
+      <h2>Contact Me</h2>
+      <a target="_blank" href="https://www.facebook.com/adv.sai24"><img src="photos/icons/fb.png" alt="facebook" /></a>
+      <a target="_blank" href="https://www.instagram.com/adv.sai24/"><img src="photos/icons/insta.png" alt="instagram" /></a>
+      <div>
+        <a href="mailto:shaniadicen@gmail.com" class="boxed">advaith.sai24@gmail.com</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Sai Advaith 2021</p>
+  </footer>
+</body>
+
 </html>
-
